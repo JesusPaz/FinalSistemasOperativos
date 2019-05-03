@@ -1,0 +1,1 @@
+Get-WmiObject win32_logicaldisk |select DeviceId,@{n="Size / GB";e={[math]::truncate($_.size / 1GB)}} , @{n="FreeSpace / GB";e={[math]::truncate($_.freespace / 1GB)}} |ConvertTo-Html -Title "Lista de discos conectados" | Out-File disk.html
