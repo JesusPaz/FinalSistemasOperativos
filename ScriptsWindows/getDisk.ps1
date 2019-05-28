@@ -1,0 +1,1 @@
+Get-WmiObject win32_logicaldisk -ComputerName localhost -Filter "drivetype=3"|select @{n="Dispositivo";e="DeviceId"},@{n="Tamaño / GB";e={[math]::truncate($_.size / 1GB)}} , @{n="Tamaño Libre / GB";e={[math]::truncate($_.freespace / 1GB)}} 
