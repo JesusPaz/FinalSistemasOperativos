@@ -14,18 +14,7 @@
             color: white;
             text-align: center;
         }
-        table {
-   width: 100%;
-   border: 1px solid #000;
-}
-th, td {
-   width: 25%;
-   text-align: left;
-   vertical-align: top;
-   border: 1px solid #000;
-   border-spacing: 0;
-}
-
+    
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
