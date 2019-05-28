@@ -1,0 +1,3 @@
+Get-Process |ConvertTo-Html -Head "<nav class='navbar navbar-dark bg-dark mb-4'>
+        <a href='index.php' class='navbar-brand'>Gestion Windows y Linux</a>
+    </nav>  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>" -Body "<h1>Tabla de procesos</h1><br>" |  Out-File process.html
