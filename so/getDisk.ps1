@@ -1,4 +1,4 @@
-Get-WmiObject win32_logicaldisk |select DeviceId,@{n="Size / GB";e={[math]::truncate($_.size / 1GB)}} , @{n="FreeSpace / GB";e={[math]::truncate($_.freespace / 1GB)}} |ConvertTo-Html -Head "<nav class='navbar navbar-dark bg-dark mb-4'>
+Get-WmiObject win32_logicaldisk -ComputerName localhost -Filter "drivetype=3" |select @{n="Dispositivo";e="DeviceId"},@{n="Tamano / GB";e={[math]::truncate($_.size / 1GB)}} , @{n="Tamano Libre / GB";e={[math]::truncate($_.freespace / 1GB)}} |ConvertTo-Html -Head "<nav class='navbar navbar-dark bg-dark mb-4'>
 <a href='index.php' class='navbar-brand'>Gestion Windows y Linux</a>
 </nav>   <style>
 .footer {
@@ -32,4 +32,4 @@ table {
     background: #eee;
  }
 
-</style>  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>" -Body "<h1>Tabla de discos conectados</h1><br>"  | Out-File disk.html
+</style>  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>" -Body "<h1>Tabla de discos conectados</h1><br>"  | Out-File disk.htm

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Gestion Windows y Linux</title>
+    <title>Gestion Windows</title>
     <style>
         .footer {
             position: fixed;
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row">
             <!--Powershell-->
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <form action="/add" method="POST">
@@ -126,17 +126,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Linux -->
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h2>Bash Linux</h2>
-                        <button type="submit" class="btn btn-primary btn-block">Procesos</button>
-                        <button type="submit" class="btn btn-primary btn-block">Usuarios</button>
-                        <button type="submit" class="btn btn-primary btn-block">File Systems</button>
-                    </div>
-                </div>
-            </div>
+         
         </div>
     </div>
 
