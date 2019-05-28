@@ -14,12 +14,7 @@
             color: white;
             text-align: center;
         }
-        .izquierda{
-            text-align: left;
-        }
-        .derecha{
-            text-align: right;
-        }
+
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -58,26 +53,74 @@
                                         <a href="?runProcess=true">
                                             <input type="button" class="btn btn btn-info" value="Consultar Proceso"></a>
                                         </a>
-                                        </div>
-                                        <div class="col-lg-5">
+                                    </div>
+                                    <div class="col-lg-5">
                                         <a href="process.html">
 
 
                                             <input type="button" class="btn btn-primary btn-block" value="Visualizar"></a>
-                                        </div>
-                                    
+                                    </div>
+
                                 </div>
+                                <br>
                                 <div class="row">
-                                        
+                                    <div class="col-lg-7">
+                                        <?php
+
+                                        if (isset($_GET['runService'])) {
+                                            if ($_GET['runService']) {
+                                                # This code will run if ?run=true is set.
+                                                Shell_Exec('powershell.exe -executionpolicy bypass -NoProfile -File ".\getService.ps1"');
+                                            }
+                                        }
+                                        ?>
+
+                                        <!-- This link will add ?run=true to your URL, myfilename.php?run=true -->
+                                        <a href="?runService=true">
+                                            <input type="button" class="btn btn btn-info" value="Consultar Servicios"></a>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <a href="service.html">
+
+
+                                            <input type="button" class="btn btn-primary btn-block" value="Visualizar"></a>
+                                    </div>
                                 </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <?php
+
+                                        if (isset($_GET['runDisks'])) {
+                                            if ($_GET['runDisks']) {
+                                                # This code will run if ?run=true is set.
+                                                Shell_Exec('powershell.exe -executionpolicy bypass -NoProfile -File ".\getDisk.ps1"');
+                                            }
+                                        }
+                                        ?>
+
+                                        <!-- This link will add ?run=true to your URL, myfilename.php?run=true -->
+                                        <a href="?runDisks=true">
+                                            <input type="button" class="btn btn btn-info" value="Discos conectados"></a>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <a href="disk.html">
+
+
+                                            <input type="button" class="btn btn-primary btn-block" value="Visualizar"></a>
+                                    </div>
+                                </div>
+
 
 
                             </div>
 
 
+
                             
-                            <button type="submit" class="btn btn-primary btn-block">Servicios</button>
-                            <button type="submit" class="btn btn-primary btn-block">Discos conectados</button>
+                           
                         </form>
                         </form>
                     </div>
