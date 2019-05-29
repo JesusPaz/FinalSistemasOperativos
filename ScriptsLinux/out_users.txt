@@ -1,0 +1,392 @@
+28K	/root
+0  Espacio Ocupado:	
+/bin/bash
+ Shell:	
+/root
+ Home:	
+root
+ Nombre:	
+
+
+16M	/usr/sbin
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/usr/sbin
+ Home:	
+daemon
+ Nombre:	
+
+
+13M	/bin
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/bin
+ Home:	
+bin
+ Nombre:	
+
+
+1,9M	/dev
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/dev
+ Home:	
+sys
+ Nombre:	
+
+
+13M	/bin
+0  Espacio Ocupado:	
+/bin/sync
+ Shell:	
+/bin
+ Home:	
+sync
+ Nombre:	
+
+
+13M	/usr/games
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/usr/games
+ Home:	
+games
+ Nombre:	
+
+
+1,8M	/var/cache/man
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/cache/man
+ Home:	
+man
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/spool/lpd
+ Home:	
+lp
+ Nombre:	
+
+
+4,0K	/var/mail
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/mail
+ Home:	
+mail
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/spool/news
+ Home:	
+news
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/spool/uucp
+ Home:	
+uucp
+ Nombre:	
+
+
+13M	/bin
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/bin
+ Home:	
+proxy
+ Nombre:	
+
+
+92K	/var/www
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/www
+ Home:	
+www-data
+ Nombre:	
+
+
+3,2M	/var/backups
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/backups
+ Home:	
+backup
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/list
+ Home:	
+list
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/run/ircd
+ Home:	
+irc
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/gnats
+ Home:	
+gnats
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/nonexistent
+ Home:	
+nobody
+ Nombre:	
+
+
+0	/run/systemd/netif
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/run/systemd/netif
+ Home:	
+systemd-network
+ Nombre:	
+
+
+12K	/run/systemd/resolve
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/run/systemd/resolve
+ Home:	
+systemd-resolve
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/home/syslog
+ Home:	
+syslog
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/nonexistent
+ Home:	
+messagebus
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/nonexistent
+ Home:	
+_apt
+ Nombre:	
+
+
+0	/run/uuidd
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/run/uuidd
+ Home:	
+uuidd
+ Nombre:	
+
+
+4,0K	/var/lib/avahi-autoipd
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/avahi-autoipd
+ Home:	
+avahi-autoipd
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/usbmux
+ Home:	
+usbmux
+ Nombre:	
+
+
+4,0K	/var/lib/misc
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/misc
+ Home:	
+dnsmasq
+ Nombre:	
+
+
+0	/proc
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/proc
+ Home:	
+rtkit
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/home/cups-pk-helper
+ Home:	
+cups-pk-helper
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/bin/false
+ Shell:	
+/var/run/speech-dispatcher
+ Home:	
+speech-dispatcher
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/bin/false
+ Shell:	
+/nonexistent
+ Home:	
+whoopsie
+ Nombre:	
+
+
+16G	/
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/
+ Home:	
+kernoops
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/saned
+ Home:	
+saned
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/run/pulse
+ Home:	
+pulse
+ Nombre:	
+
+
+4,0K	/var/run/avahi-daemon
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/run/avahi-daemon
+ Home:	
+avahi
+ Nombre:	
+
+
+56K	/var/lib/colord
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/colord
+ Home:	
+colord
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/bin/false
+ Shell:	
+/var/run/hplip
+ Home:	
+hplip
+ Nombre:	
+
+
+8,0K	/var/lib/geoclue
+0  Espacio Ocupado:	
+/usr/sbin/nologin
+ Shell:	
+/var/lib/geoclue
+ Home:	
+geoclue
+ Nombre:	
+
+
+1  Espacio Ocupado:	
+/bin/false
+ Shell:	
+/run/gnome-initial-setup/
+ Home:	
+gnome-initial-setup
+ Nombre:	
+
+
+844K	/var/lib/gdm3
+0  Espacio Ocupado:	
+/bin/false
+ Shell:	
+/var/lib/gdm3
+ Home:	
+gdm
+ Nombre:	
+
+
+1,9G	/home/jesuspaz
+0  Espacio Ocupado:	
+/bin/bash
+ Shell:	
+/home/jesuspaz
+ Home:	
+jesuspaz
+ Nombre:	
+
+
